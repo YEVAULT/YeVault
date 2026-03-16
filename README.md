@@ -7,11 +7,23 @@ A comprehensive archive of every Ye era: unreleased, released, and album copies.
 ## Version History
 
 ### v3.0.0
+- UI improvement
+- Introduces smooth animations upon opening the page and switching tabs
+- Adds disclaimer at the bottom of the page reassuring that this page is not affiliated with Ye nor any label
+- Adds version number at the bottom of the page
+- Mobile optimization
+
+### v2.3.1
+- Hotfix: Removed the built-in audio player due to CORS
+- Hotfix: Fixed the issue of a large visit external site symbol appearing
+
+### v2.3.0
 - UI overhaul
 - Mobile viewing optimizations
+- Audio Player built into the site
 
 ### v2.2.1
-- Reverted to no-artwork display for stability
+- Hotfix: Reverted to no-artwork display for stability
 
 ### v2.2.0
 - Added album artwork support per era
