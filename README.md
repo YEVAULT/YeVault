@@ -9,7 +9,6 @@ A comprehensive archive of every Ye era: unreleased, released, and album copies.
 ### v2.3.0
 - UI overhaul
 - Mobile viewing optimizations
-- Added miniplayer for listening to the selected audio without having to leave the site
 
 ### v2.2.1
 - Reverted to no-artwork display for stability
