@@ -4,11 +4,17 @@
 
 A comprehensive archive of every Ye era: unreleased, released, and album copies. Browse songs by era, view quality ratings, and access direct download/stream links.
 
+CHECK OUT YE VAULT SHOP: https://shop.yevault.com
 TIP/DONATION PAGE: https://ko-fi.com/yevault
 
 ---
 
 ## Version History
+
+### v3.4.0
+- Complete visual overhaul
+- Fixed every bug I was aware of
+
 
 ### v3.3.0
 - Added discovery dates for unreleased songs (if applicable)
