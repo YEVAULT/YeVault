@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>YE Vault — Discography Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="wordmark" href="#top" aria-label="YE Vault home">YE VAULT</a>
+
+  <nav class="primary-nav" aria-label="Archive sections">
+    <button class="nav-tab active" type="button" data-tab="u" onclick="switchTab('u','songs')">Unreleased</button>
+    <button class="nav-tab" type="button" data-tab="r" onclick="switchTab('r','songs')">Released</button>
+    <button class="nav-tab" type="button" data-tab="a" onclick="switchTab('a','links')">Album copies</button>
+  </nav>
+
+  <div class="header-links">
+    <a href="https://shop.yevault.com" target="_blank" rel="noopener noreferrer">Shop ↗</a>
+    <a href="https://ko-fi.com/yevault" target="_blank" rel="noopener noreferrer">Support ↗</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="masthead">
+    <div class="masthead-kicker">Independent fan archive / est. online</div>
+    <h1>YE<br>VAULT</h1>
+    <div class="masthead-meta">
+      <p>A searchable collection of Ye's released music, unreleased material, and album copies.</p>
+      <div class="archive-counts" aria-label="Archive statistics">
+        <span><strong id="nav-eras">—</strong> eras</span>
+        <span><strong id="nav-songs">—</strong> songs</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="archive-shell" aria-label="Music archive">
+    <div class="archive-toolbar">
+      <div class="section-label">Archive index</div>
+      <label class="search-field" for="search-box">
+        <span>Search</span>
+        <input id="search-box" type="search" placeholder="Song title or era" oninput="onSearch(this.value)" autocomplete="off" spellcheck="false">
+        <kbd>/</kbd>
+      </label>
+    </div>
+
+    <div class="list-head" aria-hidden="true">
+      <span>Era</span>
+      <span>Entries</span>
+    </div>
+
+    <div class="era-list" id="era-list"></div>
+  </section>
+
+  <section class="support-strip">
+    <div>
+      <span class="section-label">Keep it online</span>
+      <p>If the archive has been useful, you can help cover hosting and maintenance.</p>
+    </div>
+    <a href="https://ko-fi.com/yevault" target="_blank" rel="noopener noreferrer">Support the vault ↗</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>YE VAULT <span>v3.2.0</span></div>
+  <div>Fan-made archive. Not affiliated with Ye or any record label.</div>
+</footer>
+
+<button class="scroll-top" id="scroll-top" type="button" onclick="goToTop()" aria-label="Back to top">↑</button>
+
+<div class="shop-notice" id="shop-popup" role="status">
+  <button class="shop-notice-close" type="button" onclick="dismissShopNotice()" aria-label="Dismiss shop notice">×</button>
+  <span>YE VAULT SHOP</span>
+  <p>The shop is now open.</p>
+  <a href="https://shop.yevault.com" target="_blank" rel="noopener noreferrer">Visit shop ↗</a>
+</div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
