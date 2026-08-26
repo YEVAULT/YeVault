@@ -11,6 +11,11 @@ TIP/DONATION PAGE: https://ko-fi.com/yevault
 
 ## Version History
 
+### v3.4.1
+- Added est. year
+- Changed some header wording for more direct understanding
+- Added "Contact Us ↗" link for email contact
+
 ### v3.4.0
 - Complete visual overhaul
 - Fixed every bug I was aware of
