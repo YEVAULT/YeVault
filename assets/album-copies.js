@@ -44,6 +44,27 @@ const albums = {
     {title:"City of Gods", page:"https://imgur.gg/f/uRdKbPD", audio:"https://b.imgur.gg/uRdKbPD-14._CITY_OF_GODS.mp3"},
     {title:"First Time in a Long Time", page:"https://imgur.gg/f/R4NGfQK", audio:"https://b.imgur.gg/R4NGfQK-15._FIRST_TIME_IN_A_LONG_TIME.mp3"},
     {title:"Easy", page:"https://imgur.gg/f/TvNKd2M", audio:"https://b.imgur.gg/TvNKd2M-16._EASY.mp3"}
+  ],
+  tgfd: [
+    {title:"I'm Not Home", page:"https://imgur.gg/f/ju8eGPt", audio:"https://b.imgur.gg/ju8eGPt-I'm_Not_Home.mp3"},
+    {title:"On Sight", page:"https://imgur.gg/f/YglosOq", audio:"https://b.imgur.gg/YglosOq-On_Sight.mp3"},
+    {title:"Black Skinhead", page:"https://imgur.gg/f/MQ7vUGT", audio:"https://b.imgur.gg/MQ7vUGT-Black_Skinhead.mp3"},
+    {title:"I Am A God", page:"https://imgur.gg/f/IJIr1yy", audio:"https://b.imgur.gg/IJIr1yy-I_Am_A_God.mp3"},
+    {title:"New Slaves", page:"https://imgur.gg/f/kbdzxTF", audio:"https://b.imgur.gg/kbdzxTF-New_Slaves.mp3"},
+    {title:"WOW!", page:"https://imgur.gg/f/gua7evm", audio:"https://b.imgur.gg/gua7evm-WOW!.mp3"},
+    {title:"Send It Up", page:"https://imgur.gg/f/xF1sjgb", audio:"https://b.imgur.gg/xF1sjgb-Send_It_Up.mp3"},
+    {title:"HollyWood By Thy Name", page:"https://imgur.gg/f/6YyxgJ3", audio:"https://b.imgur.gg/6YyxgJ3-HollyWood_By_Thy_Name.mp3"},
+    {title:"Talk To Me", page:"https://imgur.gg/f/Xrd1GMZ", audio:"https://b.imgur.gg/Xrd1GMZ-Talk_To_Me.mp3"},
+    {title:"Greek Medusa", page:"https://imgur.gg/f/o4JTu7h", audio:"https://b.imgur.gg/o4JTu7h-Greek_Medusa.mp3"},
+    {title:"Guilt Trip", page:"https://imgur.gg/f/Sg9Ie8W", audio:"https://b.imgur.gg/Sg9Ie8W-Guilt_Trip.mp3"},
+    {title:"Blood On The Leaves", page:"https://imgur.gg/f/kRKuxuR", audio:"https://b.imgur.gg/kRKuxuR-Blood_On_The_Leaves.mp3"},
+    {title:"Hold My Liquor", page:"https://imgur.gg/f/BwmmHzv", audio:"https://b.imgur.gg/BwmmHzv-Hold_My_Liquor.mp3"},
+    {title:"Imitation of Christ", page:"https://imgur.gg/f/EtEKdSn", audio:"https://b.imgur.gg/EtEKdSn-Imitation_Of_Christ.mp3"},
+    {title:"Nobody To Love", page:"https://imgur.gg/f/sg9VKYa", audio:"https://b.imgur.gg/sg9VKYa-Nobody_To_Love.mp3"},
+    {title:"Gay Girl In A Gay Bar", page:"https://imgur.gg/f/Xm5ybCK", audio:"https://b.imgur.gg/Xm5ybCK-Gay_Girl_In_A_Gay_Bar.mp3"},
+    {title:"Can't Get Over Me", page:"https://imgur.gg/f/9duX4Aq", audio:"https://b.imgur.gg/9duX4Aq-Can't_Get_Over_Me.mp3"},
+    {title:"Awesome", page:"https://imgur.gg/f/VqYdt7W", audio:"https://b.imgur.gg/VqYdt7W-Awesome.mp3"},
+    {title:"No No No No", page:"https://imgur.gg/f/Yh1mzJb", audio:"https://b.imgur.gg/Yh1mzJb-No_No_No_No.mp3"}
   ]
 };
 
