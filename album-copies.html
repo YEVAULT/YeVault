@@ -25,17 +25,20 @@
   <main class="listen-main">
     <a class="back-link" href="index.html">← Back to archive</a>
     <section class="listen-hero">
-      <div class="section-label">Listen before downloading</div>
+      <div class="section-label">Listen before you buy</div>
       <h1>ALBUM<br>COPIES</h1>
       <p>Listen to each album copy in full before you buy.</p>
     </section>
 
     <nav class="album-index" aria-label="Jump to an album">
       <span class="section-label">Choose an album</span>
-      <a href="#war-oct-2022"><span>01</span> WAR OCT 2022 <span aria-hidden="true">↓</span></a>
+      <div class="album-index-links">
+        <a href="#war-oct-2022"><span>01</span> WAR OCT 2022 <span aria-hidden="true">↓</span></a>
+        <a href="#cuck"><span>02</span> CUCK <span aria-hidden="true">↓</span></a>
+      </div>
     </nav>
 
-    <section class="album-section" id="war-oct-2022" aria-labelledby="war-heading">
+    <section class="album-section" id="war-oct-2022" data-album="war" aria-labelledby="war-heading">
       <div class="album-heading">
         <div>
           <span class="section-label">01 / available to listen</span>
@@ -47,17 +50,43 @@
       </div>
 
       <div class="player-layout">
-        <div class="track-list" id="track-list" aria-label="WAR OCT 2022 tracklist"></div>
+        <div class="track-list" aria-label="WAR OCT 2022 tracklist"></div>
         <div class="player-panel">
           <div class="section-label">Now playing</div>
           <div class="player-art"><img src="assets/war-oct-2022-cover.png" alt="WAR OCT 2022 album artwork" width="768" height="768"></div>
-          <div class="now-playing" id="now-playing">Choose a track</div>
-          <audio id="album-player" controls preload="none" aria-label="Album audio player"></audio>
+          <div class="now-playing">Choose a track</div>
+          <audio class="album-player" controls preload="none" aria-label="WAR OCT 2022 audio player"></audio>
           <div class="player-actions">
-            <button id="previous-track" type="button">← Previous</button>
-            <button id="next-track" type="button">Next →</button>
+            <button class="previous-track" type="button">← Previous</button>
+            <button class="next-track" type="button">Next →</button>
           </div>
-          <p class="player-help" id="player-help">Audio is served by imgur.gg. If playback fails, open the track on its host from the list.</p>
+          <p class="player-help">Audio is served by imgur.gg. If playback fails, open the track on its host from the list.</p>
+        </div>
+      </div>
+    </section>
+    <section class="album-section" id="cuck" data-album="cuck" aria-labelledby="cuck-heading">
+      <div class="album-heading">
+        <div>
+          <span class="section-label">02 / available to listen</span>
+          <h2 id="cuck-heading">CUCK</h2>
+          <p>15 tracks · Select a track to play it here.</p>
+          <a class="album-direct-link" href="#cuck" aria-label="Link to CUCK listening section">Link to this album ↗</a>
+        </div>
+        <a class="download-album" href="https://imgur.gg/archive/wkuqW3D" target="_blank" rel="noopener noreferrer">Download album ↗</a>
+      </div>
+
+      <div class="player-layout">
+        <div class="track-list" aria-label="CUCK tracklist"></div>
+        <div class="player-panel">
+          <div class="section-label">Now playing</div>
+          <div class="player-art"><img src="https://i.imgur.gg/covers/a63fd304041d7d6216e008a9914181fc9191df5fa05b17ada8ab5a227a0d41b7.jpg" alt="CUCK album artwork" width="1206" height="1206" loading="lazy"></div>
+          <div class="now-playing">Choose a track</div>
+          <audio class="album-player" controls preload="none" aria-label="CUCK audio player"></audio>
+          <div class="player-actions">
+            <button class="previous-track" type="button">← Previous</button>
+            <button class="next-track" type="button">Next →</button>
+          </div>
+          <p class="player-help">Audio is served by imgur.gg. If playback fails, open the track on its host from the list.</p>
         </div>
       </div>
     </section>
