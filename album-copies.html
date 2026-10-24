@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Album copies — YE VAULT</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/album-copies.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="YE Vault home">YE VAULT</a>
+    <nav class="primary-nav" aria-label="Site navigation">
+      <a class="nav-tab" href="index.html">Archive</a>
+      <a class="nav-tab active" href="album-copies.html" aria-current="page">Album copies</a>
+    </nav>
+    <div class="header-links">
+      <a href="https://shop.yevault.com" target="_blank" rel="noopener noreferrer">Shop ↗</a>
+      <a href="mailto:support@yevault.com">Contact Us ↗</a>
+    </div>
+  </header>
+
+  <main class="listen-main">
+    <a class="back-link" href="index.html">← Back to archive</a>
+    <section class="listen-hero">
+      <div class="section-label">Listen before downloading</div>
+      <h1>ALBUM<br>COPIES</h1>
+      <p>Hear each track in full, then download the album copy you want.</p>
+    </section>
+
+    <section class="album-section" aria-labelledby="war-heading">
+      <div class="album-heading">
+        <div>
+          <span class="section-label">01 / available to listen</span>
+          <h2 id="war-heading">WAR <span>OCT 2022</span></h2>
+          <p>9 tracks · Select a track to play it here.</p>
+        </div>
+        <a class="download-album" href="https://imgur.gg/archive/8HbKwI8" target="_blank" rel="noopener noreferrer">Download album ↗</a>
+      </div>
+
+      <div class="player-layout">
+        <div class="track-list" id="track-list" aria-label="WAR OCT 2022 tracklist"></div>
+        <div class="player-panel">
+          <div class="section-label">Now playing</div>
+          <div class="player-art"><img src="assets/war-oct-2022-cover.png" alt="WAR OCT 2022 album artwork" width="768" height="768"></div>
+          <div class="now-playing" id="now-playing">Choose a track</div>
+          <audio id="album-player" controls preload="none" aria-label="Album audio player"></audio>
+          <div class="player-actions">
+            <button id="previous-track" type="button">← Previous</button>
+            <button id="next-track" type="button">Next →</button>
+          </div>
+          <p class="player-help" id="player-help">Audio is served by imgur.gg. If playback fails, open the track on its host from the list.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>YE VAULT <span>Album copies</span></div>
+    <div>Fan-made archive. Not affiliated with Ye or any record label.</div>
+  </footer>
+  <script src="assets/album-copies.js"></script>
+</body>
+</html>

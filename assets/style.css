@@ -147,3 +147,4 @@ main{width:min(1480px,100%);margin:0 auto;padding:0 28px}
   .shop-notice{left:14px;bottom:14px;width:210px}
   .scroll-top{right:14px;bottom:14px}
 }
+.album-preview-link{display:inline-block;margin-top:13px;color:var(--accent);font-family:var(--display);font-size:11px;text-decoration:none}.album-preview-link[hidden]{display:none}.album-preview-link:hover{text-decoration:underline}

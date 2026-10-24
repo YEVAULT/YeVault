@@ -54,6 +54,7 @@ function switchTab(key,label){
 
   currentTab=key;
   currentLabel=label;
+  document.getElementById('album-preview-link').hidden=key!=='a';
 
   document.querySelectorAll('.nav-tab').forEach(button=>{
     button.classList.toggle('active',button.dataset.tab===key);
