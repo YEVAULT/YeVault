@@ -26,6 +26,24 @@ const albums = {
     {title:'HITLER YE JESUS', page:'https://imgur.gg/f/x3QqEvU', audio:'https://b.imgur.gg/x3QqEvU-HITLER_YE_JESUS.mp3'},
     {title:'JARED', page:'https://imgur.gg/f/fqhbfrs', audio:'https://b.imgur.gg/fqhbfrs-JARED.mp3'},
     {title:'NITROUS', page:'https://imgur.gg/f/MrekSBW', audio:'https://b.imgur.gg/MrekSBW-NITROUS.mp3'}
+  ],
+  donda2: [
+    {title:"True Love", page:"https://imgur.gg/f/0ZoTqXa", audio:"https://b.imgur.gg/0ZoTqXa-01._TRUE_LOVE.mp3"},
+    {title:"Broken Road", page:"https://imgur.gg/f/dWeXz9l", audio:"https://b.imgur.gg/dWeXz9l-02._BROKEN_ROAD.mp3"},
+    {title:"Get Lost", page:"https://imgur.gg/f/PhWh87w", audio:"https://b.imgur.gg/PhWh87w-03._GET_LOST.mp3"},
+    {title:"Too Easy", page:"https://imgur.gg/f/c8sNp3q", audio:"https://b.imgur.gg/c8sNp3q-04._TOO_EASY.mp3"},
+    {title:"Fuck Flowers", page:"https://imgur.gg/f/jdv9xDJ", audio:"https://b.imgur.gg/jdv9xDJ-05._FUCK_FLOWERS.mp3"},
+    {title:"Security", page:"https://imgur.gg/f/dkgqH8D", audio:"https://b.imgur.gg/dkgqH8D-06._SECURITY.mp3"},
+    {title:"We Did It Kid", page:"https://imgur.gg/f/MwvdORH", audio:"https://b.imgur.gg/MwvdORH-07._WE_DID_IT_KID.mp3"},
+    {title:"Pablo", page:"https://imgur.gg/f/T21bt3o", audio:"https://b.imgur.gg/T21bt3o-08._PABLO.mp3"},
+    {title:"Louie Bag", page:"https://imgur.gg/f/WZweQSb", audio:"https://b.imgur.gg/WZweQSb-09._LOUIE_BAG.mp3"},
+    {title:"Happy", page:"https://imgur.gg/f/DE9A180", audio:"https://b.imgur.gg/DE9A180-10._HAPPY.mp3"},
+    {title:"Sci Fi", page:"https://imgur.gg/f/Dhi6Jyx", audio:"https://b.imgur.gg/Dhi6Jyx-11._SCI_FI.mp3"},
+    {title:"Selfish", page:"https://imgur.gg/f/IDA6Icl", audio:"https://b.imgur.gg/IDA6Icl-12._SELFISH.mp3"},
+    {title:"Lord Lift Me Up", page:"https://imgur.gg/f/AkqTpuV", audio:"https://b.imgur.gg/AkqTpuV-13._LORD_LIFT_ME_UP.mp3"},
+    {title:"City of Gods", page:"https://imgur.gg/f/uRdKbPD", audio:"https://b.imgur.gg/uRdKbPD-14._CITY_OF_GODS.mp3"},
+    {title:"First Time in a Long Time", page:"https://imgur.gg/f/R4NGfQK", audio:"https://b.imgur.gg/R4NGfQK-15._FIRST_TIME_IN_A_LONG_TIME.mp3"},
+    {title:"Easy", page:"https://imgur.gg/f/TvNKd2M", audio:"https://b.imgur.gg/TvNKd2M-16._EASY.mp3"}
   ]
 };
 
