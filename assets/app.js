@@ -22,7 +22,8 @@ let currentLabel='songs';
 let searchTimer;
 
 function loadData(){
-  allData=JSON.parse(atob(RAW));
+  const bytes=Uint8Array.from(atob(RAW),char=>char.charCodeAt(0));
+  allData=JSON.parse(new TextDecoder("utf-8").decode(bytes));
 }
 
 document.addEventListener('keydown',event=>{
