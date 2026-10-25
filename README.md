@@ -11,6 +11,9 @@ TIP/DONATION PAGE: https://ko-fi.com/yevault
 
 ## Version History
 
+### v3.5.0
+- Updated Unreleased, Released, and Album Copies tracker entries.
+
 ### v3.4.1
 - Added est. year
 - Changed some header wording for more direct understanding
